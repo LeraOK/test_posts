@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {useRouter} from "next/router";
 import {useTypeSelector} from "../hooks/useTypeSelector";
 import {NextThunkDispatch, wrapper} from "../store";
@@ -9,8 +9,7 @@ import styles from '../styles/postsList.module.css';
 
 const Index = () => {
     const router = useRouter();
-    const state = useTypeSelector(state => state.posts)
-    console.log(state.posts);
+    const state = useTypeSelector(state => state.posts);
     if(state.error){
         return (
             <div>

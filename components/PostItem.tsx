@@ -9,15 +9,18 @@ interface PostItemProps{
 const PostItem: React.FC<PostItemProps> = ({post}) => {
     const router = useRouter();
     return (
-        <div onClick={()=>router.push('/posts/' +post.id)} className={inner.class}>
-            <div className={inner.wrapper}>
-                {/*<div className={inner.wrapperItem}>*/}
-                    {/*<p>{post.id}</p>*/}
-                    <p className={inner.listItemTitle}> {post.title}</p>
-                {/*</div>*/}
-                <p className={inner.listItemBody}>{post.body}</p>
-            </div>
+        <div>
+            {post.title && post.body?
+                <div onClick={()=>router.push('/posts/' +post.id)} className={inner.class}>
+                    <div className={inner.wrapper}>
+                        <p className={inner.listItemTitle}> {post.title}</p>
+                        <p className={inner.listItemBody}>{post.body}</p>
+                    </div>
+                </div>
+                :null
+            }
         </div>
+
     );
 };
 
