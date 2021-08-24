@@ -1,6 +1,9 @@
 {
   "name": "test-posts",
   "version": "0.1.0",
+  "engines": {
+    "npm": "6.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
