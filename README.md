@@ -16,7 +16,7 @@ Link:  https://simple-blog-posts.vercel.app/
 * open Terminal;
 * change the current working directory to the location, where you want cloned directory;
 * type git clone and then paste the URL you copied earlier;
-### ``
+### `$ git clone https://github.com/LeraOK/test_posts.git`
 * press **Enter** to create your local clone.
 
 
