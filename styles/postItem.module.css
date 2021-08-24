@@ -1,0 +1,64 @@
+.class{
+    min-height: 170px ;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 10rem;
+    border-top: 1px solid gray;
+    padding-top: 2rem;
+}
+.listItemTitle{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.titleCenter{
+    text-align: center;
+}
+.listItemBody{
+    margin-top: 2rem;
+    font-size: 25px;
+
+}
+.currentPost{
+    margin: 5rem 7rem;
+}
+.marginBottom{
+    margin-bottom: 3rem;
+}
+.commentTitle{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.textAreaComment{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 1rem;
+}
+.newPost{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 7rem;
+}
+.newPostTitle{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.buttonMargin{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 576px){
+
+    .wrapper{
+        margin: 1rem 3rem;
+    }
+}
+
