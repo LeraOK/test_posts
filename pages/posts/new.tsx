@@ -4,7 +4,7 @@ import axios from "axios";
 import {useRouter} from "next/router";
 import button from '../../styles/button.module.css';
 import styles from '../../styles/postItem.module.css';
-import {useTextArea} from "../../utils/hooks/useTextArea";
+import {useTextArea} from "../../hooks/useTextArea";
 
 const New = () => {
     const router = useRouter();
