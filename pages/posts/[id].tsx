@@ -40,7 +40,7 @@ const PostPage = ({serverPost}) => {
             />
             <button onClick={addComment} className={button.btn}>Leave comment</button>
             {post.comments.length?<CommentList comments={post.comments}/>:null}
-            <button onClick={()=>router.push('http://localhost:3000/')} className={button.btn}>Back</button>
+            <button onClick={()=>router.push('https://simple-blog-posts.vercel.app/')} className={button.btn}>Back</button>
         </div>
     );
 };
