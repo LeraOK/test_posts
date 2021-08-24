@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {useInput} from "../../utils/hooks/useInput";
 import axios from "axios";
 import {useRouter} from "next/router";
 import button from '../../styles/button.module.css';
