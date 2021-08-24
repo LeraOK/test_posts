@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import {useInput} from "../../hooks/useInput";
+import {useInput} from "../../utils/hooks/useInput";
 import axios from "axios";
 import {useRouter} from "next/router";
 import button from '../../styles/button.module.css';
 import styles from '../../styles/postItem.module.css';
-import {useTextArea} from "../../hooks/useTextArea";
+import {useTextArea} from "../../utils/hooks/useTextArea";
 
 const New = () => {
     const router = useRouter();

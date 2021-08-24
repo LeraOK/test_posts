@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useRouter} from "next/router";
-import {useTypeSelector} from "../hooks/useTypeSelector";
+import {useTypeSelector} from "../utils/hooks/useTypeSelector";
 import {NextThunkDispatch, wrapper} from "../store";
 import {fetchPosts} from "../store/action-creators/post";
 import PostList from "../components/PostList";
